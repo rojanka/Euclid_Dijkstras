@@ -1,6 +1,6 @@
 Package: euclid.dijkstras
 Type: Package
-Title: Implements Euler's and Djikstra's Algorithms
+Title: Implements Euclid's and Djikstra's Algorithms
 Version: 1.0
 Date: 2020-09-04
 Author: Rojan and Shashi
@@ -11,3 +11,6 @@ Description: There are two functions in the package:
   the shortest distance/path from one node to another in a connected graph
 License: GNU
 RoxygenNote: 7.1.1
+Encoding: UTF-8
+Depends: 
+    R (>= 2.10)

@@ -9,6 +9,7 @@
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #' @references \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Euclidean Algorithm}
+#' @export
 
 euclidean <- function(x, y) {
   while (y!= 0) {
