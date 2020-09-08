@@ -1,4 +1,4 @@
-Package: EuclidDijkstras
+Package: euclid.dijkstras
 Type: Package
 Title: Implements Euler's and Djikstra's Algorithms
 Version: 1.0
