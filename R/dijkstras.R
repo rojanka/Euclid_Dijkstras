@@ -21,7 +21,7 @@ dijkstra <- function(graph, init_node) {
   # check for input integrity
   if (!is.data.frame(graph) || !is.numeric(init_node)) {
     stop("The Graph must be a data frame and Init Node must be an numeric scalar")
-  } else if(!all(tolower(sort(colnames(graph))) == c("v1","v2", "w"))) {
+  } else if(!all(suppressWarnings(tolower(sort(colnames(graph))) == c("v1","v2", "w")))) {
     stop("Structure the Graph Input to have 3 columns: v1, v2 and w")
   } else if (!all(sapply(colnames(graph), function(x) {is.numeric(graph[, x])}))) {
     stop("Graph Input must be numeric")
